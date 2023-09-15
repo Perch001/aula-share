@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.NavLink{
+    margin-left: 20px;
+    padding: 15px;
+    color: gray;
+}
+
+.logo{
+    width: 25px;
+    height: 40px;
+    border: 2px solid #2EB85C;
+    border-radius: 5px;
+    margin: 10px 0 0 50px;
+}
