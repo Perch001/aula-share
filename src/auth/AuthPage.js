@@ -11,7 +11,7 @@ const AuthPage = () => {
     const selectUser = useSelector(state => state.auth)
 
     const handleLoginAccount = () => {
-        dispatch(add_user(username, password, false))
+        dispatch(add_user(username, password, true))
         // if(username.trim() !== "" & password.trim() !== ""){
         //     dispatch(add_user(username, password, true))
         //     console.log(selectUser)

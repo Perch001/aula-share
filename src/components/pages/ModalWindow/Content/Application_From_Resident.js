@@ -177,7 +177,7 @@ const ApplicationFromResident = ({onCancel}) => {
             label: 'Прочее',
         },
     ]
-    const SelectTypeAction = [
+    const   SelectTypeAction = [
         {
             value: 'Жилой дом',
             label: 'Жилой дом',
